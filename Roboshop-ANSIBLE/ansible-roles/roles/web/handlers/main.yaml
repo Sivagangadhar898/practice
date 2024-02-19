@@ -1,5 +1,5 @@
 - name: restart nginx
   service:
-    name: install nginx
+    name: nginx
     state: restarted
     enabled: yes
